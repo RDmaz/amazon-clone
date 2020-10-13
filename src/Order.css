@@ -1,0 +1,18 @@
+.order {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative; /*this is relative but the order id is absolute. the parent is relative so that's why the child stay inside the container day4 3:17:37*/
+}
+
+.order__id {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.order__total {
+  font-weight: 500;
+  text-align: right;
+}
