@@ -1,14 +1,14 @@
 De Amazon clone:
 ----------------
-React JS
-Firebase (Authentication)
-Database
-Functions
-Hosting
-HTML
-CSS
-Context API
-NodeJS
+React JS,
+Firebase (Authentication),
+Database,
+Functions,
+Hosting,
+HTML,
+CSS,
+Context API,
+NodeJS,
 Stripe
 ----------------
 ## Available Scripts
