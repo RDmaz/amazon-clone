@@ -1,14 +1,15 @@
-Problem: day 3 2:22:31 log out = stay home page (good) but if login again takes me to login page (but the info of the one that was logged in stay so I can see the mail!)
-in order to use material UI we need to insert those two commands:
-npm install @material-ui/core
-npm install @material-ui/icons  
-in reducer line 17 deze oplossing werd besproken: to remove an item in the basket.
-return {
-...state,
-basket: state.basket.filter(item => item.id !== action.id)
-{
-// הפתרון הזה למחיקת מוצר מהסל לא טוב כיוון שאם יש לי כמה פריטים מאותו סוג הוא מוחק את כולם!
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+De Amazon clone:
+----------------
+React JS
+Firebase (Authentication)
+Database
+Functions
+Hosting
+HTML
+CSS
+Context API
+NodeJS
+Stripe
 
 ## Available Scripts
 
@@ -76,3 +77,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+Problem: day 3 2:22:31 log out = stay home page (good) but if login again takes me to login page (but the info of the one that was logged in stay so I can see the mail!)
+in order to use material UI we need to insert those two commands:
+npm install @material-ui/core
+npm install @material-ui/icons  
+in reducer line 17 deze oplossing werd besproken: to remove an item in the basket.
+return {
+...state,
+basket: state.basket.filter(item => item.id !== action.id)
+{
+// הפתרון הזה למחיקת מוצר מהסל לא טוב כיוון שאם יש לי כמה פריטים מאותו סוג הוא מוחק את כולם!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
